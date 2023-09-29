@@ -38,4 +38,4 @@ if __name__ == "__main__":
         image_path = os.path.join(img_dir, image_file)
         estimated_length = estimate_oyster_length(image_path)
         if estimated_length is not None:
-            print(f"{image_file}: 推定された牡蠣の体長は {estimated_length} ピクセルです。")
+            print(f"{image_file}:  {estimated_length} ピクセルです。")
